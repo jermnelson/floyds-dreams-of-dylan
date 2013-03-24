@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org",
+    "bibframe": "http://bibframe.org/vocab"
+  }, 
+  "@type": "MusicAlbum",
+  "bibframe:CoverArt": {
+    "url": "/assets/img/Bob_Dylan_-_The_Times_They_Are_a-Changin'.jpg"
+  }, 
+  "dateCreated": "1965-01-13", 
+  "name": "The Times They Are a-Changin'", 
+  "track": [
+    {
+      "@type": "MusicRecording", 
+      "duration": "5:06", 
+      "keywords": [
+        "side one"
+      ], 
+      "name": "Ballad of Hollis Brown", 
+      "url": "/track/ballad_of_hollis_brown"
+    }, 
+    {
+      "@type": "MusicRecording", 
+      "duration": "7:08", 
+      "keywords": [
+        "side one"
+      ], 
+      "name": "With God on Our Side", 
+      "url": "/track/with_god_on_our_side"
+    }, 
+    {
+      "@type": "MusicRecording", 
+      "duration": "2:41", 
+      "keywords": [
+        "side one"
+      ], 
+      "name": "One Too Many Mornings", 
+      "url": "/track/one_too_many_mornings"
+    }, 
+    {
+      "@type": "MusicRecording", 
+      "duration": "4:35", 
+      "keywords": [
+        "side one"
+      ], 
+      "name": "North Country Blues", 
+      "url": "/track/north_country_blues"
+    }, 
+    {
+      "@type": "MusicRecording", 
+      "duration": "3:33", 
+      "keywords": [
+        "side two"
+      ], 
+      "name": "Only a Pawn in Their Game", 
+      "url": "/track/only_a_pawn_in_their_game"
+    }, 
+    {
+      "@type": "MusicRecording", 
+      "duration": "4:40", 
+      "keywords": [
+        "side two"
+      ], 
+      "name": "Boots of Spanish Leather", 
+      "url": "/track/boots_of_spanish_leather"
+    }, 
+    {
+      "@type": "MusicRecording", 
+      "duration": "3:18", 
+      "keywords": [
+        "side two"
+      ], 
+      "name": "When the Ship Comes In", 
+      "url": "/track/when_the_ship_comes_in"
+    }, 
+    {
+      "@type": "MusicRecording", 
+      "duration": "5:48", 
+      "keywords": [
+        "side two"
+      ], 
+      "name": "The Lonesome Death of Hattie Carroll", 
+      "url": "/track/the_lonesome_death_of_hattie_carroll"
+    }, 
+    {
+      "@type": "MusicRecording", 
+      "duration": "5:32", 
+      "keywords": [
+        "side two"
+      ], 
+      "name": "Restless Farewell", 
+      "url": "/track/restless_farewell"
+    }
+  ], 
+  "url": "/album/the_times_they_are_a-changin'"
+}

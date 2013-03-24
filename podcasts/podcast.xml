@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Floyd's Dreams of Dylan</title>
+    <description>This is the podcast channel for Floyd's Dreams of Dylan painting and audio project.</description>
+    <link>/podcast/bob-dylan-mixes</link>
+    <item>
+      <title>Introductory Podcast for the Floyd's Dreams of Dylan Painting and Audio Project</title>
+      <link>/podcasts/introduction</link>
+      <description>This podcast offers original commentary by Jeremy Nelson along with songs and lyrics by Bob Dylan</description>
+      <enclosure url="/mp3/intro.mp3" type="audio/mp3"/>
+    </item>
+  </channel>
+</rss>
