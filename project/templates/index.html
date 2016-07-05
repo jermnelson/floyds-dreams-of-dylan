@@ -1,12 +1,6 @@
 {% extends 'layout.html' %}
 
-{% block more_css %}
-<style>
-    body {
-        {#background-image: url("{{ url_for('static', filename="img/floyds-dreams-of-dylan-2013-03-23.jpg") }}");#}
-    }
-</style>
-{% endblock %}
+
 {% block main %}
 <div class="container">
     <h1>Floyd's Dreams of Dylan</h1>
@@ -24,6 +18,7 @@
                 <li>Frame</li>
                 <li>Amusement Park</li>
                 <li>Radio</li>
+                <li><a href="{{ url_for('display', path='jeremy-nelson') }}">Artist</a></li>
             </ul>
 
         </div>
