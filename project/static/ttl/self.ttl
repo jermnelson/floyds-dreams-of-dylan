@@ -1,0 +1,15 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://jermnelson.github.io/floyds-dreams-of-dylan/> a schema:Painting ;
+    schema:creator [ a schema:Person ;
+            schema:familyName "Nelson"@en ;
+            schema:givenName "Jeremy"@en ;
+            schema:sameAs <http://orcid.org/0000-0002-7543-3893> ] ;
+    schema:description "An oil painting by Jeremy Nelson in honor of his friend, Floyd Shiery"@en ;
+    schema:name "Floyd's Dreams of Dylan"@en ;
+    schema:version "0.5.0" .
+
