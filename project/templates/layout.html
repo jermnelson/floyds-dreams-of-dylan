@@ -2,9 +2,42 @@
 <html>
  <head>
   <title>Floyd's Dreams of Dylan {{title or None}}</title>
-  <link href="/assets/css/default.css" rel="stylesheet">
+  <link href="{{ url_for('static', filename="css/default.css") }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename="css/normalize.css") }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename="css/skeleton.css") }}" rel="stylesheet">
+  {% block more_css %}
+    <style>
+    a.active {
+        background-color: #FFFAB6;
+    }
+    </style>
+  {% endblock %}
+
  </head>
  <body>
   {% block main %}{% endblock %}
+    {% block navbar %}
+    {% set button_bkgrd = "#FFFAB6" %}
+    <div class="container">
+        <div class="row">
+            <div class="ten column">
+                <a  class="button"
+                 href="{{ url_for("home") }}">Home</a>
+                <a  class="button {% if request.path.endswith("dylans-head/")%}active{% endif %}"
+                 href="{{ url_for("display", path="dylans-head") }}">Inside Dylan's Head</a>
+                <a class="button {% if request.path.endswith("title-island/")%}active{% endif %}"
+                    href="{{ url_for("display", path="title-island") }}">Title Island</a>
+                <a class="button {% if request.path.endswith("lucid-dreamer/")%}active{% endif %}"
+                    href="{{ url_for("display", path="lucid-dreamer") }}">Floyd's Lucid Dream</a>
+                <a class="button{% if request.path.endswith("pirate-radio/")%} active{% endif %}"
+                    href="{{ url_for("display", path="pirate-radio") }}">Pirate Radio</a>
+
+            </div>
+       </div>
+    <p><strong>&copy;2016 Jeremy Nelson, Floyd Shiery</strong></p>
+
+    </div>
+    
+    {% endblock %}
  </body>
 </html>

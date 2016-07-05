@@ -1,6 +1,6 @@
 title: Inside Bob Dylan's Head
 
-<img src="/assets/img/bob-dylan.jpg" id="young-bob-dylan">
+<img src="/static/img/bob-dylan.jpg" id="young-bob-dylan">
 
 As a fan and an artist, my appreciation for Bob Dylan's craft
 and artisan approach to music developed and deepened because of 
@@ -11,8 +11,10 @@ and artisan approach to music developed and deepened because of
  (See <a href="http://lightbox.time.com/2012/03/19/a-year-and-a-day-with-bob-dylan/#1">A Year 
  and a Day with Bob Dylan</a>)
  
-My version is clearly not a pure or even a good copy of the photo, 
+My first version is clearly not a pure or even a good copy of the photo, 
 especially as the lips make Dylan look a transvestite, which maybe isn't
 something Dylan would totally reject, but definitely shows how amateur my 
 painting style actual is compared to most trained artists. 
 
+The second attempt I will use a technique of creating and printing the 
+photograph and then transfer the grid to the painting.

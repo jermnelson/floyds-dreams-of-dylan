@@ -5,11 +5,18 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://jermnelson.github.io/floyds-dreams-of-dylan/> a schema:Painting ;
+    schema:about <http://id.loc.gov/authorities/names/n50030190>,
+        <http://id.loc.gov/authorities/subjects/sh85096661> ;
     schema:creator [ a schema:Person ;
             schema:familyName "Nelson"@en ;
             schema:givenName "Jeremy"@en ;
             schema:sameAs <http://orcid.org/0000-0002-7543-3893> ] ;
     schema:description "An oil painting by Jeremy Nelson in honor of his friend, Floyd Shiery"@en ;
     schema:name "Floyd's Dreams of Dylan"@en ;
+    schema:thumbnail <https://github.com/jermnelson/floyds-dreams-of-dylan/project/static/img/floyds-dreams-of-dylan-2013-03-23.jpg> ;
     schema:version "0.5.0" .
+
+<http://id.loc.gov/authorities/names/n50030190> rdfs:label "Bob Dylan"@en .
+
+<http://id.loc.gov/authorities/subjects/sh85096661> rdfs:label "Painting"@en .
 

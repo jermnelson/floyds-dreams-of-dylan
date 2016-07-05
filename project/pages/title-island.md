@@ -10,4 +10,3 @@ title: Title Island
  The <strong>o</strong> in Floyd, is a large Ferris wheel. The colorful designs are inspired by the
  late 1960's hippie aesthetics of the Beatles's <em>Yellow Submarine</em>.
 </p>
-%rebase layout title='Title Island'
