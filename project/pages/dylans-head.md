@@ -18,3 +18,10 @@ painting style actual is compared to most trained artists.
 
 The second attempt I will use a technique of creating and printing the 
 photograph and then transfer the grid to the painting.
+Here is the grid attempt: 
+
+<br>
+## Grid Photo
+<img src="/static/img/bob-dylan.svg" id="bob-dylan-grid">
+
+
