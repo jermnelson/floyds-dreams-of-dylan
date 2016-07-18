@@ -8,7 +8,8 @@ from .app import app, pages, PODCASTS
 
 @app.route("/")
 def home():
-    return render_template("index.html", pages=pages, podcasts=PODCASTS)
+    podcats = []
+    return render_template("index.html", pages=pages)
 
 @app.route("/<path:path>/")
 def display(path):
