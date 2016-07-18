@@ -20,7 +20,12 @@
                 <li>Radio</li>
                 <li><a href="{{ url_for('display', path='jeremy-nelson') }}">Artist</a></li>
             </ul>
-
+            <h3>Playlists</h3>
+            <ol>
+            {% for show in podcasts %}
+                <li>{{ show }}</li>
+            {% endfor %}
+            </ol>
         </div>
     </div>
 </div>
