@@ -10,13 +10,14 @@ app.config.from_pyfile('settings.py')
 pages = FlatPages(app)
 freezer = Freezer(app)
 
-global PODCASTS
+PODCASTS = rdflib.Graph()
+PROJECT_DIR = os.path.split(os.path.abspath(__file__))[0]
 
 def setup():
-    PODCASTS = rdflib.Graph()
-
-    PROJECT_DIR = os.path.split(os.path.abspath(__file__))[0]
-    walker = os.walk(os.path.join(PROJECT_DIR, "podcasts"))
+    global PODCASTS
+    podcast_dir = os.path.join(PROJECT_DIR, "podcasts")
+    print("PODCAST dir {}".format(podcast_dir))
+    walker = os.walk(podcast_dir)
     for result in walker:
         print("IN ROW")
         for name in result[2]:
