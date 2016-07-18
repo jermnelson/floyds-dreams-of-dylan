@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://jermnelson.github.io/floyds-dreams-of-dylan/cee84214-4d2d-11e6-a142-005056c00008> a schema:MusicPlaylist ;
+    schema:isBasedOn <http://www.rollingstone.com/music/lists/the-10-greatest-bob-dylan-songs-20110511/like-a-rolling-stone-20110511> ;
+    schema:track [ a schema:ItemList ;
+            schema:itemListElement [ a schema:ListItem ;
+                    schema:item <https://en.wikipedia.org/wiki/All_Along_the_Watchtower> ;
+                    schema:position 5 ],
+                [ a schema:ListItem ;
+                    schema:item <https://en.wikipedia.org/wiki/It%27s_Alright,_Ma_(I%27m_Only_Bleeding)> ;
+                    schema:position 7 ],
+                [ a schema:ListItem ;
+                    schema:item <https://en.wikipedia.org/wiki/Just_Like_a_Woman> ;
+                    schema:position 4 ],
+                [ a schema:ListItem ;
+                    schema:item <https://en.wikipedia.org/wiki/A_Hard_Rain%27s_a-Gonna_Fall> ;
+                    schema:position 2 ],
+                [ a schema:ListItem ;
+                    schema:item <https://en.wikipedia.org/wiki/Mr._Tambourine_Man> ;
+                    schema:position 8 ],
+                [ a schema:ListItem ;
+                    schema:item <https://en.wikipedia.org/wiki/Visions_of_Johanna> ;
+                    schema:position 9 ],
+                [ a schema:ListItem ;
+                    schema:item <https://en.wikipedia.org/wiki/I_Shall_Be_Released> ;
+                    schema:position 6 ],
+                [ a schema:ListItem ;
+                    schema:item <https://en.wikipedia.org/wiki/Like_a_Rolling_Stone> ;
+                    schema:position 1 ],
+                [ a schema:ListItem ;
+                    schema:item <https://en.wikipedia.org/wiki/Every_Grain_of_Sand> ;
+                    schema:position 10 ],
+                [ a schema:ListItem ;
+                    schema:item <https://en.wikipedia.org/wiki/Tangled_Up_in_Blue> ;
+                    schema:position 3 ] ] .
+
+<http://www.rollingstone.com/music/lists/the-10-greatest-bob-dylan-songs-20110511/like-a-rolling-stone-20110511> a schema:Article ;
+    schema:dateCreated "2011-05-11" .

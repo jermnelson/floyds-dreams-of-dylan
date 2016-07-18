@@ -1,0 +1,11 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://jermnelson.github.io/floyds-dreams-of-dylan/6eee5c00-4d35-11e6-90c9-005056c00008> a schema:MusicPlaylist ;
+    schema:track [ schema:itemListElement [ a schema:ListItem ;
+                    schema:item <https://en.wikipedia.org/wiki/The_Ballad_of_Frankie_Lee_and_Judas_Priest> ;
+                    schema:position 1 ] ] .
+

@@ -1,0 +1,76 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://en.wikipedia.org/wiki/Forever_Young_(Bob_Dylan_song)> a schema:MusicRecording ;
+    schema:creator <http://id.loc.gov/authorities/names/n50030190> ;
+    schema:name "Forever Young"@en .
+
+<http://en.wikipedia.org/wiki/Subterranean_Homesick_Blues> a schema:MusicRecording ;
+    schema:creator <http://id.loc.gov/authorities/names/n50030190> ;
+    schema:name "Subterranean_Homesick_Blues"@en .
+
+<https://en.wikipedia.org/wiki/A_Hard_Rain%27s_a-Gonna_Fall> a schema:MusicRecording ;
+    schema:creator <http://id.loc.gov/authorities/names/n50030190> ;
+    schema:name "A Hard Rain's a-Gonna Fall"@en .
+
+<https://en.wikipedia.org/wiki/All_Along_the_Watchtower> a schema:MusicRecording ;
+    schema:creator <http://id.loc.gov/authorities/names/n50030190> ;
+    schema:name "All Along the Watchtower"@en .
+
+<https://en.wikipedia.org/wiki/Blowin%27_in_the_Wind> a schema:MusicRecording ;
+    schema:creator <http://id.loc.gov/authorities/names/n50030190> ;
+    schema:name "Blowin' in the Wind"@en .
+
+<https://en.wikipedia.org/wiki/Desolation_Row> a schema:MusicRecording ;
+    schema:creator <http://id.loc.gov/authorities/names/n50030190> ;
+    schema:name "Desolation Row"@en .
+
+<https://en.wikipedia.org/wiki/Every_Grain_of_Sand> a schema:MusicRecording ;
+    schema:creator <http://id.loc.gov/authorities/names/n50030190> ;
+    schema:name "Every Grain of Sand"@en .
+
+<https://en.wikipedia.org/wiki/I_Shall_Be_Released> a schema:MusicRecording ;
+    schema:creator <http://id.loc.gov/authorities/names/n50030190> ;
+    schema:name "I Shall Be Released"@en .
+
+<https://en.wikipedia.org/wiki/It%27s_Alright,_Ma_(I%27m_Only_Bleeding)> a schema:MusicRecording ;
+    schema:creator <http://id.loc.gov/authorities/names/n50030190> ;
+    schema:name "It's Alright, Ma (I'm Only Bleeding)"@en .
+
+<https://en.wikipedia.org/wiki/Just_Like_a_Woman> a schema:MusicRecording ;
+    schema:creator <http://id.loc.gov/authorities/names/n50030190> ;
+    schema:name "Just Like a Woman"@en .
+
+<https://en.wikipedia.org/wiki/Lay_Lady_Lay> a schema:MusicRecording ;
+    schema:creator <http://id.loc.gov/authorities/names/n50030190> ;
+    schema:name "Lay Lady Lay"@en .
+
+<https://en.wikipedia.org/wiki/Like_a_Rolling_Stone> a schema:MusicRecording ;
+    schema:creator <http://id.loc.gov/authorities/names/n50030190> ;
+    schema:name "Like a Rolling Stone"@en .
+
+<https://en.wikipedia.org/wiki/Mr._Tambourine_Man> a schema:MusicRecording ;
+    schema:creator <http://id.loc.gov/authorities/names/n50030190> ;
+    schema:name "Mr. Tambourine Man"@en .
+
+<https://en.wikipedia.org/wiki/Tangled_Up_in_Blue> a schema:MusicRecording ;
+    schema:creator <http://id.loc.gov/authorities/names/n50030190> ;
+    schema:name "Tangled Up in Blue"@en .
+
+<https://en.wikipedia.org/wiki/The_Ballad_of_Frankie_Lee_and_Judas_Priest> a schema:MusicRecording ;
+    schema:creator <http://id.loc.gov/authorities/names/n50030190> ;
+    schema:name "The Ballad of Frankie Lee and Judas Priest"@en .
+
+<https://en.wikipedia.org/wiki/The_Times_They_Are_a-Changin%27_(song)> a schema:MusicRecording ;
+    schema:creator <http://id.loc.gov/authorities/names/n50030190> ;
+    schema:name "The Times They Are a-Changin'"@en .
+
+<https://en.wikipedia.org/wiki/Visions_of_Johanna> a schema:MusicRecording ;
+    schema:creator <http://id.loc.gov/authorities/names/n50030190> ;
+    schema:name "Visions of Johanna"@en .
+
+<http://id.loc.gov/authorities/names/n50030190> rdfs:label "Bob Dylan"@en .
+
