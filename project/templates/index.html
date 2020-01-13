@@ -3,10 +3,11 @@
 
 {% block main %}
 <div class="container">
-    <h1>Floyd's Dreams of Dylan</h1>
+    <h1>Floyd's Dreams of Dylan Series</h1>
     <div class="row">
         <div class="two-thirds column">
-        <div class="painting">
+        <div class="painting" id="fantasy-islands">
+            <h4>#1 Fantasy Islands</h4>
             <img src="{{ url_for('static', filename="img/floyds-dreams-of-dylan-2013-03-23.jpg") }}" usemap="#painting-map" > 
             <p>Oil paint on canvas</p>
         </div>
@@ -14,10 +15,22 @@
         <div class="one-third column">
             <h2>Process</h2>
             <ul>
-                <li>Painting</li>
-                <li>Frame</li>
-                <li>Amusement Park</li>
-                <li>Radio</li>
+                <li>Paintings in Series
+                  <ol>
+                    <li>
+                        <a href="{{ url_for('display', path='fantasy-islands') }}">Fantasy Islands</a>
+                        <ul>
+                          <li>Frame</li>
+                          <li>Amusement Park</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('display', path='drive-in-the-dark') }}">Drive in the Dark</a>
+                    </li>
+                  </ol>
+                </li>
+                <li><a href="{{ url_for('display', path='pirate-radio') }}">Radio</a>
+                </li>
                 <li><a href="{{ url_for('display', path='jeremy-nelson') }}">Artist</a></li>
             </ul>
             <h3>Playlists</h3>
