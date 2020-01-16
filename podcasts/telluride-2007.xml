@@ -1,0 +1,72 @@
+<rss>
+  <channel>
+    <title>Floyd's Dreams of Dylan: Telluride 2007 Set</title>
+    <description>Jeremy Nelson's first Bob Dylan concert accompanied by Floyd Shiery at the Telluride, Colorado town park on July 21st 2007.</description>
+    <link>/podcasts/telluride-2007</link>
+    <item>
+      <link>/podcasts/telluride-2007/intro</link>
+      <description>Introduction to this podcast episode.</description>
+      <enclosure url="/podcasts/telluride-2007/intro.mp3" type="audio/mp3"/>
+    </item>
+    <item>
+      <title>Cat&#8217;s in the Well</title>
+      <enclosure url="podcasts/telluride-2007/" type="audio/mp3"/>
+    </item>
+    <item>
+      <title>Don&#8217;t Think Twice, It&#8217;s All Right</title>
+      <enclosure url="podcasts/telluride-2007/" type="audio/mp3"/>
+    </item>
+    <item>
+      <title>Watching the River Flow</title>
+      <enclosure url="podcasts/telluride-2007/" type="audio/mp3"/>
+    </item>
+    <item>
+      <title>It&#8217;s Alright, Ma (I&#8217;m Only Bleeding)</title>
+      <enclosure url="podcasts/telluride-2007/" type="audio/mp3"/>
+    </item>
+    <item>
+      <title>Workingman&#8217;s Blues #2</title>
+      <enclosure url="podcasts/telluride-2007/" type="audio/mp3"/>
+    </item>
+    <item>
+      <title>Tangled Up In Blue</title>
+      <enclosure url="podcasts/telluride-2007/" type="audio/mp3"/>
+    </item>
+    <item>
+      <title>Girl from the North Country</title>
+      <enclosure url="podcasts/telluride-2007/" type="audio/mp3"/>
+    </item>
+    <item>
+      <title>Honest with Me</title>
+      <enclosure url="podcasts/telluride-2007/" type="audio/mp3"/>
+    </item>
+    <item>
+      <title>Spirit on the Water</title>
+      <enclosure url="podcasts/telluride-2007/" type="audio/mp3"/>
+    </item>
+    <item>
+      <title>Highway 61 Revisited</title>
+      <enclosure url="podcasts/telluride-2007/" type="audio/mp3"/>
+    </item>
+    <item>
+      <title>Nettie Moore</title>
+      <enclosure url="podcasts/telluride-2007/" type="audio/mp3"/>
+    </item>
+    <item>
+      <title>Summer Days</title>
+      <enclosure url="podcasts/telluride-2007/" type="audio/mp3"/>
+    </item>
+    <item>
+      <title>Masters of War</title>
+      <enclosure url="podcasts/telluride-2007/" type="audio/mp3"/>
+    </item>
+    <item>
+      <title>Thunder on the Mountain</title>
+      <enclosure url="podcasts/telluride-2007/" type="audio/mp3"/>
+    </item>
+    <item>
+      <title>Blowin&#8217; in the Wind</title>
+      <enclosure url="podcasts/telluride-2007/" type="audio/mp3"/>
+    </item>
+  </channel>
+</rss>
