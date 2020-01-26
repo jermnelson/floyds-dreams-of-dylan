@@ -19,8 +19,10 @@
     {% block navbar %}
     {% set button_bkgrd = "#FFFAB6" %}
     <div class="container">
+    {% include 'bottom-nav.html' %}
+
         <div class="row">
-            <div class="ten column">
+                        <div class="ten column">
                 <a  class="button"
                  href="{{ url_for("home") }}">Home</a>
                 <a  class="button {% if request.path.endswith("dylans-head/")%}active{% endif %}"
