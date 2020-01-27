@@ -8,3 +8,10 @@ Here is the current
 
 Using this [blog](http://stevenloria.com/hosting-static-flask-sites-for-free-on-github-pages/) post
 for technical base to host on Git pages for this project. 
+
+To play mp3 files from the command-line using the vlc 
+media player `cvlc --play-and-exit all-along-the-watchtower.mp3`
+
+Run the web application on port 80, `sudo /home/pi/py3-env/bin/python run.py`
+in a tmux session. 
+
