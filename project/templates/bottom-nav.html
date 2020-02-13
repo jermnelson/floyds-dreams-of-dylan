@@ -1,0 +1,22 @@
+<div class="row">
+  <div class="ten column">
+    <a  class="button"
+         href="{{ url_for("home") }}">Home</a>
+    <a  class="button {% if request.path.endswith("all-quiet-western-front/")%}active{% endif %}"
+        href="{{ url_for("display", path="all-quiet-western-front") }}">
+        All Quiet on the Western Front
+    </a>
+    <a class="button {% if request.path.endswith("moby-dick/")%}active{% endif %}"
+       href="{{ url_for("display", path="moby-dick") }}">Moby Dick
+    </a>
+   <a class="button {% if request.path.endswith("the-odyssey/")%}active{% endif %}"
+      href="{{ url_for("display", path="the-odyssey") }}">
+       The Odyssey</a>
+   <a class="button {% if request.path.endswith("nobel-prize/")%}active{% endif %}"
+      href="{{ url_for("display", path="nobel-prize") }}">
+       Nobel Prize</a>
+   <a class="button{% if request.path.endswith("pirate-radio/")%} active{% endif %}"
+       href="{{ url_for("display", path="pirate-radio") }}">Pirate Radio</a>
+
+  </div>
+</div>
