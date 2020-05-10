@@ -8,3 +8,5 @@ Here is the current
 
 Using this [blog](http://stevenloria.com/hosting-static-flask-sites-for-free-on-github-pages/) post
 for technical base to host on Git pages for this project. 
+
+
