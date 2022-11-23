@@ -77,10 +77,16 @@
       }
     </style>
 
-    
+    <py-config>
+packages = [
+    "markdown"
+]
+    </py-config>
   </head>
   <body>
-    
+<py-script>
+
+</py-script>
 <header>
   <div class="collapse bg-dark" id="navbarHeader">
     <div class="container">
@@ -136,7 +142,7 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="floyds-dreams-of-dylan-2013-03-23.jpg" class="d-block w-100" alt="...">
+      <img src="floyds-dreams-of-dylan-2013-03-23.jpg" width="800" height="400" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>First Pass</h5>
         <p>First paint pass for <em>Floyd's Dreams of Dylan</em>  on 02014-03-23.</p>
@@ -157,16 +163,21 @@
       </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#painting-carousel" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#painting-carousel" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
 
+
+ <section id="radio" class="container text-center">
+    <h3>Radio/Podcasts</h3>
+    <div id="radio-content"></div>
+  </section>
 </main>
 
 <footer class="text-muted py-5">

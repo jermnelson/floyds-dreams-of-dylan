@@ -1,6 +1,6 @@
 title: Inside Bob Dylan's Head
 
-<img src="/static/img/bob-dylan.jpg" id="young-bob-dylan">
+<img src="bob-dylan.jpg" id="young-bob-dylan">
 
 As a fan and an artist, my appreciation for Bob Dylan's craft
 and artisan approach to music developed and deepened because of 
@@ -13,7 +13,7 @@ and artisan approach to music developed and deepened because of
  (See <a href="http://lightbox.time.com/2012/03/19/a-year-and-a-day-with-bob-dylan/#1">A Year 
  and a Day with Bob Dylan</a>)
  
-My [first version](/static/img/floyds-dreams-of-dylan-2013-03-23.jpg) is clearly not 
+My [first version](floyds-dreams-of-dylan-2013-03-23.jpg) is clearly not 
 a pure or even a good copy of the photo, 
 especially Dylan's lips, but definitely shows how amateur my 
 painting style actual is compared to most trained artists. 
