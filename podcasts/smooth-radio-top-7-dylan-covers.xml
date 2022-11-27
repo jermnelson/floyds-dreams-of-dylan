@@ -3,6 +3,10 @@
     <title>7 of the best Bob Dylan covers of all time, from Adele to Simply Red</title>
     <url>https://www.smoothradio.com/features/bob-dylan-covers/</url>
     <item>
+      <title>Floyd's Dreams of Dylan Radio Show Intro</title>
+      <enclosure type="audio/mp3" url="/static/audio/fdd-radio-show-intro.mp3" />
+    </item>
+    <item>
       <title>1. Adele - 'Make You Feel My Love'</title>
       <enclosure url="/dylan_covers/adele-make-you-feel-my-love.mp3" type="audio/mp3"/>
     </item>

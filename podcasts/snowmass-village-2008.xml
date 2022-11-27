@@ -3,6 +3,10 @@
     <title/>
     <description>Jeremy Nelson and Floyd Shiery at Bob Dylan's August 30th 2008 concert in Snowmass, Colorado for the Jazz Aspen Snowmass festival.</description>
     <item>
+      <title>Floyd's Dreams of Dylan Radio Show Intro</title>
+      <enclosure type="audio/mp3" url="/static/audio/fdd-radio-show-intro.mp3" />
+    </item>   
+    <item>
       <title>Rainy Day Women #12 &amp; 35</title>
       <enclosure url="/dylan_songs/rainy-day-women-12-35.mp3" type="audio/mp3"/>
     </item>
