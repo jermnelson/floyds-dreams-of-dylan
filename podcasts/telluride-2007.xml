@@ -4,9 +4,8 @@
     <description>Jeremy Nelson's first Bob Dylan concert accompanied by Floyd Shiery at the Telluride, Colorado town park on July 21st 2007.</description>
     <link>//dylan_songs/</link>
     <item>
-      <link>//dylan_songs//intro</link>
-      <description>Introduction to this podcast episode.</description>
-      <enclosure url="/jerms_audio/intro-telluride.mp3" type="audio/mp3"/>
+      <title>Floyd's Dreams of Dylan Radio Show Intro</title>
+      <enclosure type="audio/mp3" url="/static/audio/fdd-radio-show-intro.mp3" />
     </item>
     <item>
       <title>Cat&#8217;s in the Well</title>
